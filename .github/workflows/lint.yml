@@ -25,4 +25,4 @@ jobs:
         pip install black flake8 mypy
 
     - name: Run linter
-      run: black --check openapi_drf_codegen/ && flake8 --max-line-length=140 --ignore=F401 openapi_drf_codegen/
+      run: black --check oa3_responses_validator/ && flake8 --max-line-length=140 --ignore=F401 oa3_responses_validator/
